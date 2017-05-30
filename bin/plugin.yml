@@ -1,0 +1,16 @@
+name: RoyalMC_HeatSeekers
+main: org.royalmc.heatseekers.HeatSeekers_Main
+version: 1.0
+author: SwiftLee
+website: play.royalmc.org
+description: Heat Seeker arrows plugin for RoyalMC.
+
+commands:
+ heatseeker:
+           description: Gives target player specified amount of heat seeker arrows.
+           usage: /heatseeker
+           aliases: [hs]
+ reloadhsconfig:
+           description: Reloads the plugin config.
+           usage: /reloadhsconfig
+           aliases: [rhsc, rhc, reloadhs]
